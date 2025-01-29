@@ -1,0 +1,138 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full-page height */
+  }
+  
+  /* Register Container */
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background-color: #111; /* Slightly lighter black for contrast */
+    padding: 30px;
+    border: 2px solid #444;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Form Title */
+  .form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffd700; /* Gold for the heading */
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
+  input:focus {
+    border-color: #ffd700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.7);
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #e5c700;
+  }
+  
+  /* Login Link */
+  .login-link {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-link a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 20px;
+    }
+  
+    .form-title {
+      font-size: 20px;
+    }
+  
+    input {
+      font-size: 12px;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+    }
+  }
+
+/* Center Google Login Button */
+.google-login-container {
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 20px auto; /* Center with auto margins */
+  width: 100%; /* Stretches the container's width */
+  max-width: 300px; /* Ensures it doesn't span too wide */
+}
+
+
+
